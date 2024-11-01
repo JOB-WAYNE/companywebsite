@@ -116,5 +116,19 @@ h1 {
     font-weight: bold;           /* Bold text */
     text-align: center;          /* Center alignment */
 }
-    
+p {
+    font-size: 1rem;                   /* Standard font size */
+    line-height: 1.6;                  /* Spacing between lines for readability */
+    color: #333;                       /* Dark color for text */
+    margin-bottom: 15px;               /* Space below each paragraph */
+    text-align: justify;               /* Justified text for a clean look */
+    padding: 0 15px;                   /* Horizontal padding for breathing space */
+}
+
+p:first-of-type {
+    font-weight: bold;                 /* Bold for the first paragraph */
+    font-size: 1.1rem;                 /* Slightly larger font size */
+    margin-bottom: 20px;               /* Extra space below */
+}
+
 
